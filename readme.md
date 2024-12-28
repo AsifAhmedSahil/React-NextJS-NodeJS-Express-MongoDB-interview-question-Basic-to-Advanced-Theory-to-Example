@@ -8,3 +8,10 @@
 
 ## How does useState work?
 ==> The useState Hook enables you to add state to your functional components. It returns a stateful value and a function that can be used to update that value. By using Hooks, you can extract stateful logic from your component
+
+## Reconsilation in react??
+==> React uses a reconciliation algorithm to compare a new tree with the most recent tree to determine how to update the user interface. reconsilation akta react er algorithm jeta behind the scene "virtual dom" name known.
+
+## React fiber?
+==> React Fiber is a reconciliation algorithm in React 16 that allows for incremental rendering of the virtual DOM. This enables smoother UI updates and better performance for complex applications
+
