@@ -15,3 +15,21 @@
 ## React fiber?
 ==> React Fiber is a reconciliation algorithm in React 16 that allows for incremental rendering of the virtual DOM. This enables smoother UI updates and better performance for complex applications
 
+## ReactJS State vs Props
+==> A state is a variable that exists inside a component, that cannot be accessed and modified outside the component, and can only be used inside the component. Works very similarly to a variable that is declared inside a function that cannot be accessed outside the scope of the function in normal javascript.
+
+==> React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component.
+
+## Difference between state & props
+
+==> props: 
+1/ The Data is passed from one component to another.
+2/ It is Immutable (cannot be modified).
+3/ Props can be used with state and functional components.
+4/ Props are read-only.
+
+==> State:
+1/ The Data is passed within the component only.
+2/ It is Mutable ( can be modified).
+3/ The state is both read and write.
+
