@@ -33,3 +33,12 @@
 2/ It is Mutable ( can be modified).
 3/ The state is both read and write.
 
+## what is lifting the state up?
+==> 
+
+## What is event bubbling in React?
+==> In event bubbling, the event starts at the most deeply nestd element,then bubbling up, triggering handlers on its parent elements upward till each reaches the top of the dom trees.
+
+## How do you resolve event bubbling?
+==> In event object there are a function called stoppropagation(), when it called inside an event handler then it stops prevent the event from bubbling up to any other elements.
+
