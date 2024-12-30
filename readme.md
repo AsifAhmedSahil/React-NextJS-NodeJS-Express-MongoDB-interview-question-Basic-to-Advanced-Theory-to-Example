@@ -42,3 +42,15 @@
 ## How do you resolve event bubbling?
 ==> In event object there are a function called stoppropagation(), when it called inside an event handler then it stops prevent the event from bubbling up to any other elements.
 
+## What is useEffect Hooks?
+==> useEffect Hooks is used to connect component to an external system. In this the depenedeny array specifies when the effect should run based on changes in its dependencies and when the dependency array is absent in useEffect, the effect will run after every render.
+
+When you provide dependencies in the dependency array of useEffect, the effect will run:
+
+Initially after the first render.
+Whenever any of the dependencies change between renders.
+If the dependencies are an empty array ( [] ), the effect will only run once after the initial render, similar to componentDidMount in class components.
+
+## When would you use useRef?
+useRef is used in React functional components when you need to keep a mutable value around across renders without triggering a re-render. It's commonly used for accessing DOM elements, caching values, or storing mutable variables. You can use useRef to manage focus within your components, such as focusing on a specific input element when a condition is met without triggering re-renders.
+
