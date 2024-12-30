@@ -54,3 +54,32 @@ If the dependencies are an empty array ( [] ), the effect will only run once aft
 ## When would you use useRef?
 useRef is used in React functional components when you need to keep a mutable value around across renders without triggering a re-render. It's commonly used for accessing DOM elements, caching values, or storing mutable variables. You can use useRef to manage focus within your components, such as focusing on a specific input element when a condition is met without triggering re-renders.
 
+
+## usememo hook in react?
+==> useMemo hook is used to get the memoized value of a function in react components. It works on the concept of memoization which refers to caching the output of a function for a given argument to save the computation time. Hence, it improves the application performance.
+
+The useMemo Hook returns a memoized value and prevents the application from unnecessary re-renders. It is useful in heavy computations and processes when using functional components. The useMemo hook helps optimize performance by memoizing expensive calculations.
+
+```
+const memoizedValue = useMemo(functionThatReturnsValue, arrayDependencies)
+```
+useMemo hook is used to enchance the performance in react applications. It stores the output for given arguments as cache and directly return it for same values, preventing unnecessary rerenders and computations.
+
+## React useCallback Hook?
+
+==> React useCallback hook returns a memoized function to reduce unnecessary callbacks. This useCallback hook is used when you have a component in which the child is rerendering again and again without need.
+
+```
+const memoizedCallback = useCallback(
+    () => {
+        doSomething(a, b);
+    },    [a, b],
+);
+```
+
+## React useCallback Hook Usage
+This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
+It improves the performance by reducing the unnecessary computations and providing already stored callback.
+It is similar to React useMemo Hook, the difference is it returns a callback and useMemo returns a value.
+
+
