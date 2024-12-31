@@ -10,7 +10,7 @@
 ==> The useState Hook enables you to add state to your functional components. It returns a stateful value and a function that can be used to update that value. By using Hooks, you can extract stateful logic from your component
 
 ## Reconsilation in react??
-==> React uses a reconciliation algorithm to compare a new tree with the most recent tree to determine how to update the user interface. reconsilation akta react er algorithm jeta behind the scene "virtual dom" name known.
+==> React uses a reconciliation algorithm(diffing algorithm) to compare a new tree with the most recent tree to determine how to update the user interface. reconsilation akta react er algorithm jeta behind the scene "virtual dom" name known.
 
 ## React fiber?
 ==> React Fiber is a reconciliation algorithm in React 16 that allows for incremental rendering of the virtual DOM. This enables smoother UI updates and better performance for complex applications
@@ -18,7 +18,7 @@
 ## ReactJS State vs Props
 ==> A state is a variable that exists inside a component, that cannot be accessed and modified outside the component, and can only be used inside the component. Works very similarly to a variable that is declared inside a function that cannot be accessed outside the scope of the function in normal javascript.
 
-==> React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component.
+==> React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component. props basically data pass korar way parent to child component e.
 
 ## Difference between state & props
 
@@ -35,6 +35,9 @@
 
 ## what is lifting the state up?
 ==> 
+
+## babel in react?
+==> babel is a transpiler , jeta jsx code k traslate kroe pure js code e then browser k send kore code.
 
 ## What is event bubbling in React?
 ==> In event bubbling, the event starts at the most deeply nestd element,then bubbling up, triggering handlers on its parent elements upward till each reaches the top of the dom trees.
