@@ -85,4 +85,14 @@ This is useful when passing callbacks to optimized child components that rely on
 It improves the performance by reducing the unnecessary computations and providing already stored callback.
 It is similar to React useMemo Hook, the difference is it returns a callback and useMemo returns a value.
 
+## ReactJS useContext Hook?
+==> Create Context , create provider, pass value, usecontext
+
+React Context is a way to manage state globally.Context provides a way to pass data or state through the component tree without having props drilling.
+
+useContext
+Consumes context values in functional components.
+Helps avoid prop drilling by allowing components to access global or shared state directly.
+Commonly used with React’s Context API to manage application-wide states like themes or user authentication.
+
 
