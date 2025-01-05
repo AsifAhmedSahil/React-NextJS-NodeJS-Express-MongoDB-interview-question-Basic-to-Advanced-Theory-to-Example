@@ -90,9 +90,10 @@ It is similar to React useMemo Hook, the difference is it returns a callback and
 
 React Context is a way to manage state globally.Context provides a way to pass data or state through the component tree without having props drilling.
 
-useContext
-Consumes context values in functional components.
+useContext Consumes context values in functional components.
 Helps avoid prop drilling by allowing components to access global or shared state directly.
 Commonly used with React’s Context API to manage application-wide states like themes or user authentication.
+
+
 
 
