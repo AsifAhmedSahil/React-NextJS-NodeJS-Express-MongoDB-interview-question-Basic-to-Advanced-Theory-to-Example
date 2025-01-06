@@ -94,6 +94,9 @@ useContext Consumes context values in functional components.
 Helps avoid prop drilling by allowing components to access global or shared state directly.
 Commonly used with React’s Context API to manage application-wide states like themes or user authentication.
 
+## What is the Context API?
+The Context API is a mechanism that allows you to share specific information (like state or functions) with multiple components, eliminating the need for prop drilling.
+
 
 
 
