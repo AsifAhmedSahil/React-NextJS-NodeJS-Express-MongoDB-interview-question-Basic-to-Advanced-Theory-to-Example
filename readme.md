@@ -100,6 +100,9 @@ The Context API is a mechanism that allows you to share specific information (li
 ## What is the Context API?
 The Context API is a mechanism that allows you to share specific information (like state or functions) with multiple components, eliminating the need for prop drilling.
 
+## What is the Context API?
+The Context API is a mechanism that allows you to share specific information (like state or functions) with multiple components, eliminating the need for prop drilling.
+
 
 
 
