@@ -104,5 +104,118 @@ The Context API is a mechanism that allows you to share specific information (li
 The Context API is a mechanism that allows you to share specific information (like state or functions) with multiple components, eliminating the need for prop drilling.
 
 
+### React
+## What is React?
+
+React is a JavaScript library for building user interfaces, primarily for single-page applications. It allows developers to create reusable UI components and efficiently update the UI using a virtual DOM.
+
+## What is JSX in React?
+
+JSX (JavaScript XML) is a syntax extension that allows writing HTML structures in JavaScript code. React components often use JSX to render elements.
+
+```jsx
+Copy
+const element = <h1>Hello, world!</h1>;
+```
+## What are components in React?
+
+Components are the building blocks of React applications. They can be either class-based or function-based and return JSX to define the UI.
+
+## What is the difference between state and props in React?
+
+State: Data that is local to a component and can be changed within the component.
+Props: Data passed from parent to child components, which is immutable within the child component.
+
+## What is the use of useState in React?
+
+useState is a Hook that allows you to add state to function components. It returns a pair: the current state and a function to update it.
+
+```jsx
+Copy
+const [count, setCount] = useState(0);
+```
+## What is the purpose of useEffect in React?
+
+useEffect is a Hook that allows you to perform side effects (such as data fetching or DOM manipulation) in function components. It runs after every render unless you specify dependencies.
+
+```jsx
+Copy
+useEffect(() => {
+    // side effect code here
+}, [dependencies]);
+```
+## What are React lifecycle methods?
+
+Lifecycle methods are special methods that get called at different stages of a component’s life (like mounting, updating, and unmounting). In function components, useEffect can replace many lifecycle methods.
+
+## What is the difference between functional components and class components?
+
+Functional components: Simpler components that are written as JavaScript functions. They can use Hooks for state and side effects.
+Class components: More complex components that are defined using ES6 classes and can have lifecycle methods and state.
+
+## What is a Virtual DOM in React?
+
+The Virtual DOM is a lightweight in-memory representation of the actual DOM. React updates the Virtual DOM first, and then efficiently updates the real DOM, improving performance.
+
+## What is the key prop in React?
+
+The key prop is used to uniquely identify elements in a list, helping React efficiently update and re-render lists of items.
+
+```jsx
+Copy
+{items.map(item => <li key={item.id}>{item.name}</li>)}
+```
+## What is React Router?
+
+React Router is a library that enables navigation and routing in React applications. It allows users to move between different views or pages of the application.
+
+## What is context in React?
+
+React's Context API is used to pass data deeply through the component tree without having to explicitly pass props at every level.
+
+## What are hooks in React?
+
+Hooks are functions that allow you to "hook into" React's state and lifecycle features from function components. Examples include useState, useEffect, useContext, etc.
+
+## What is useRef in React?
+
+useRef is a Hook that can store a mutable value that persists across re-renders. It can be used to reference a DOM element or store a value without causing a re-render.
+
+## What is the useMemo hook in React?
+
+useMemo is a Hook that memorizes a calculated value and only recalculates it when one of its dependencies changes. It's useful for optimizing performance.
+
+## What is the useCallback hook in React?
+
+useCallback returns a memoized version of a callback function that only changes if one of the dependencies has changed. It helps to prevent unnecessary re-renders of child components.
+
+## What is prop drilling in React?
+
+Prop drilling refers to the process of passing data through multiple layers of components via props. This can be simplified by using React's Context API.
+
+## What is React.Fragment?
+
+React.Fragment allows you to group multiple elements without adding extra nodes to the DOM.
+
+```jsx
+Copy
+return (
+    <React.Fragment>
+        <h1>Title</h1>
+        <p>Some content</p>
+    </React.Fragment>
+);
+```
+
+## What is dangerouslySetInnerHTML in React?
+
+dangerouslySetInnerHTML is a property that lets you insert HTML directly into the DOM. It should be used with caution to avoid security risks (e.g., XSS attacks).
+
+## What are controlled and uncontrolled components in React?
+
+Controlled components: Components that use state to control form elements (input, textarea, etc.).
+Uncontrolled components: Components that rely on the DOM itself to manage their state.
+
+
 
 
