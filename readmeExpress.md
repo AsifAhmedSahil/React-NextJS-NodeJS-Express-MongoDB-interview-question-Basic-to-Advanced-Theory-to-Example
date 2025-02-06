@@ -126,5 +126,5 @@ Express supports template engines like EJS, Pug, and Handlebars. You need to set
 ## What is express.Router()?
 
 express.Router() is a method that creates modular, mountable route handlers. You can use it to define routes in separate files or components.
-express.Router() is a method that creates modular, mountable route handlers. You can use it to define routes in separate files or components.
+
 
