@@ -14,6 +14,9 @@ A collection is a grouping of MongoDB documents. It is similar to a table in a r
 ## What is a document in MongoDB?
 
 A document is a record in MongoDB, represented as a JSON-like object with key-value pairs. It’s similar to a row in a relational database.
+## What is a document in MongoDB?
+
+A document is a record in MongoDB, represented as a JSON-like object with key-value pairs. It’s similar to a row in a relational database.
 
 ## How do you connect to a MongoDB database?
 
